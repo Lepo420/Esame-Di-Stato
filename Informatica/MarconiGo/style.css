@@ -1,0 +1,74 @@
+p{
+	font-size:50px;
+}
+	#nav ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+
+body
+{
+	background-color: #0066ff;
+	padding: 1.20em; /* 20 */
+	background-image: url('supermercato.jpg');
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+			 
+		}
+
+#nav  ul li {
+  position: relative;
+  border-bottom:1px solid #0156ff;
+  width: 200px;
+  float: left;
+}
+
+#nav li ul {
+  position: absolute;
+  z-index: 1;
+  display: none;
+}
+
+#nav ul li a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  background: #3399ff;
+  padding: 5px;
+}
+
+#nav  li:hover ul, #nav li.jshover ul {
+  display: block;
+}
+
+#nav li:hover  a, #nav li.jshover a {
+  color:#fff;
+  background: #99ccff;
+}
+
+.bg-text {
+	font-family: "Monaco", "Courier New", monospace;
+  background-color: #ffffff; /* Fallback color */
+  background-color: rgba(5, 1, 219, 0.637); /* Black w/opacity/see-through */
+  color: rgb(0, 212, 240);
+  font-weight: bold;
+  border: 3px solid #000000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 40%;
+  padding: 100px;
+  text-align: center;
+}
+
+.tabella-centrata {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
